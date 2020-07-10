@@ -1,10 +1,10 @@
 import os
 import json
-trainset_dir = "tmp/"
+trainset_dir = "/content/drive/My Drive/Translation/NMT/tmp/"
 trainset_io = open(os.path.join(trainset_dir, "translation2019zh_train.json"))
 devset_io = open(os.path.join(trainset_dir, "translation2019zh_valid.json"))
 
-data_dir = "tmp/"
+data_dir = "/content/drive/My Drive/Translation/NMT/tmp/"
 train_en_io = open("tmp/raw-train.zh-en.en", "w")
 train_zh_io = open("tmp/raw-train.zh-en.zh", "w")
 
