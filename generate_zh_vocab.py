@@ -17,5 +17,5 @@ with open("/content/drive/My Drive/Translation/NMT/tmp/raw-train.zh-en.zh") as f
         if len(vocab) > vocab_size:
             break
 
-with open("/content/drive/My Drive/Translation/NMT/tmp/data/vocab.enzh-sub-zh.{}".format(vocab_size), "w") as fopen:
+with open("data_dir/vocab.enzh-sub-zh.{}".format(vocab_size), "w") as fopen:
     fopen.write("<pad>\n<EOS>\nUNK\n" + "\n".join(list(vocab)))
