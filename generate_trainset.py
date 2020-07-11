@@ -1,6 +1,6 @@
 import os
 import json
-trainset_dir = "/content/drive/My\ Drive/Translation/NMT/tmp/"
+trainset_dir = "/content/drive/My Drive/Translation/NMT/tmp/"
 trainset_io = open(os.path.join(trainset_dir, "translation2019zh_train.json"))
 devset_io = open(os.path.join(trainset_dir, "translation2019zh_valid.json"))
 
