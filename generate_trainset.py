@@ -5,11 +5,11 @@ trainset_io = open(os.path.join(trainset_dir, "translation2019zh_train.json"))
 devset_io = open(os.path.join(trainset_dir, "translation2019zh_valid.json"))
 
 data_dir = "/content/drive/My Drive/Translation/NMT/tmp/"
-train_en_io = open("tmp/raw-train.zh-en.en", "w")
-train_zh_io = open("tmp/raw-train.zh-en.zh", "w")
+train_en_io = open("/content/drive/My Drive/Translation/NMT/tmp/raw-train.zh-en.en", "w")
+train_zh_io = open("/content/drive/My Drive/Translation/NMT/tmp/raw-train.zh-en.zh", "w")
 
-dev_en_io = open("tmp/raw-dev.zh-en.en", "w")
-dev_zh_io = open("tmp/raw-dev.zh-en.zh", "w")
+dev_en_io = open("/content/drive/My Drive/Translation/NMT/tmp/raw-dev.zh-en.en", "w")
+dev_zh_io = open("/content/drive/My Drive/Translation/NMT/tmp/raw-dev.zh-en.zh", "w")
 
 def prepare_data(data_io, en_io, zh_io):
     for line in data_io:
