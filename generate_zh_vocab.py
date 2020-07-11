@@ -8,7 +8,7 @@ import jieba
 
 vocab_size = 50000
 vocab = set()
-with open("tmp/raw-train.zh-en.zh") as fopen:
+with open("/content/drive/My Drive/Translation/NMT/tmp/raw-train.zh-en.zh") as fopen:
     for line in fopen:
         line = line.strip()
         words = list(line)
