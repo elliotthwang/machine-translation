@@ -6,7 +6,7 @@
 
 vocab_size = 50000
 vocab = set()
-with open("tmp/en.vocab") as fopen:
+with open("/content/drive/My Drive/Translation/NMT/tmp/en.vocab") as fopen:
     for line in fopen:
         line = line.strip()
         word = line.split()[0]
